@@ -9,7 +9,7 @@
     selection.addRange(range);
   }
 
-  document.querySelectorAll("pre code").forEach(code => {
+  document.querySelectorAll("pre code").forEach((code) => {
     code.addEventListener("click", function (event) {
       if (window.getSelection().toString()) {
         return;
